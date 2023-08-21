@@ -1,0 +1,28 @@
+.bg,
+.letsTalk {
+  position: absolute;
+}
+.bg {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--orange);
+}
+.letsTalk {
+  top: 29.31%;
+  left: 28.89%;
+  line-height: 25px;
+}
+.button {
+  position: relative;
+  width: 180px;
+  height: 58px;
+  text-align: center;
+  font-size: var(--bold-2-size);
+  color: var(--color-white);
+  font-family: var(--bold-2);
+}

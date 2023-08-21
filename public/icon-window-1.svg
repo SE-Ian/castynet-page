@@ -1,0 +1,19 @@
+<svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22 20H90V87H22V20Z" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<path d="M22 35H90" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<path d="M28.5 30C27.1193 30 26 28.8807 26 27.5C26 26.1193 27.1193 25 28.5 25C29.8807 25 31 26.1193 31 27.5C31 28.8807 29.8807 30 28.5 30Z" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<path d="M38.5 30C39.8807 30 41 28.8807 41 27.5C41 26.1193 39.8807 25 38.5 25C37.1193 25 36 26.1193 36 27.5C36 28.8807 37.1193 30 38.5 30Z" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M49.6977 25C48.2078 25 47 26.1193 47 27.5C47 28.8807 48.2078 30 49.6977 30H73.3023C74.7922 30 76 28.8807 76 27.5C76 26.1193 74.7922 25 73.3023 25H49.6977Z" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<path d="M83.5 30C84.8807 30 86 28.8807 86 27.5C86 26.1193 84.8807 25 83.5 25C82.1193 25 81 26.1193 81 27.5C81 28.8807 82.1193 30 83.5 30Z" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<path d="M6 47H16" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<path d="M6 61H16" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<path d="M6 67H16" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<path d="M6 74H16" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<path d="M96 74H107" stroke="#353641" stroke-width="2" stroke-linecap="square"/>
+<path d="M96 67H106V47H96" stroke="#353641" stroke-width="2" stroke-linecap="square"/>
+<path d="M34 46H41" stroke="#F7931E" stroke-width="2" stroke-linecap="square"/>
+<path d="M47 46H78" stroke="#353641" stroke-width="2" stroke-linecap="square"/>
+<path d="M34 52H78" stroke="#353641" stroke-width="2" stroke-linecap="square"/>
+<path d="M52 61H34V79H52V61Z" stroke="#F7931E" stroke-width="2" stroke-linecap="square"/>
+<path d="M78 61H60V79H78V61Z" stroke="#353641" stroke-width="2" stroke-linecap="square"/>
+</svg>

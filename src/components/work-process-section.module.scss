@@ -1,0 +1,153 @@
+.bgIcon,
+.imageIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 1190px;
+}
+.imageIcon {
+  top: 401px;
+  width: 464px;
+  height: 738px;
+  object-fit: cover;
+}
+.linesIcon,
+.maskGroup {
+  position: relative;
+  width: 1512px;
+  height: 1190px;
+}
+.linesIcon {
+  width: 1180px;
+  height: 939px;
+  margin-top: -939px;
+}
+.bg,
+.bgIcon1 {
+  position: absolute;
+}
+.bg {
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 1190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.bgIcon1 {
+  top: -12px;
+  left: -20px;
+  width: 410px;
+  height: 250px;
+}
+.blessedLightsGive {
+  margin: 0;
+}
+.blessedLightsGiveContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.blessedLightsGiveContainer,
+.launch {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.blessedLightsGiveContainer {
+  top: 48px;
+  left: 0;
+  line-height: 24px;
+  width: 283px;
+  height: 82px;
+}
+.launch {
+  top: 0;
+  left: 57px;
+  font-size: var(--semibold-4-size);
+  line-height: 32px;
+  font-weight: 600;
+  font-family: var(--semibold-11);
+  width: 247px;
+}
+.div,
+.launchIcon,
+.text {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 304px;
+  height: 130px;
+}
+.div,
+.launchIcon {
+  top: 39.7px;
+  left: 38.7px;
+  width: 37.6px;
+  height: 37.6px;
+}
+.div {
+  top: 773px;
+  left: 971px;
+  width: 370px;
+  height: 210px;
+}
+.div1,
+.testingIcon {
+  position: absolute;
+  top: 40px;
+  left: 38.7px;
+  width: 35.6px;
+  height: 38px;
+}
+.div1 {
+  top: 773px;
+  left: 571px;
+  width: 370px;
+  height: 210px;
+}
+.developmentIcon,
+.div2,
+.div3 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 36px;
+  height: 36px;
+}
+.div2,
+.div3 {
+  top: 533px;
+  left: 971px;
+  width: 370px;
+  height: 210px;
+}
+.div3 {
+  left: 571px;
+}
+.ourWorkProcess {
+  margin: 0;
+  position: absolute;
+  top: 391px;
+  left: 573px;
+  font-size: var(--semibold-7-size);
+  line-height: 52px;
+  font-weight: 600;
+  font-family: var(--semibold-11);
+  display: flex;
+  align-items: center;
+  width: 378px;
+}
+.workProcess {
+  position: absolute;
+  top: 3893px;
+  left: 0;
+  width: 1512px;
+  height: 1190px;
+  text-align: left;
+  font-size: var(--bold-2-size);
+  color: var(--black);
+  font-family: var(--bold-2);
+}

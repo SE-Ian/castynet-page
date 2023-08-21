@@ -1,0 +1,203 @@
+.imageIcon {
+  width: 370px;
+  height: 368px;
+  object-fit: cover;
+}
+.inHouseBrand {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 154px;
+  flex-shrink: 0;
+}
+.arrowIcon {
+  position: relative;
+  width: 13.8px;
+  height: 13.8px;
+}
+.div,
+.link {
+  display: flex;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  width: 187px;
+  height: 32px;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: var(--gap-2xl);
+  color: inherit;
+}
+.div {
+  position: absolute;
+  top: 141px;
+  left: 800px;
+  width: 370px;
+  height: 419px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.eLearningPortal {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+  width: 170px;
+  flex-shrink: 0;
+}
+.div1,
+.eLearningPortal,
+.link1 {
+  display: flex;
+  align-items: center;
+}
+.link1 {
+  text-decoration: none;
+  width: 203px;
+  height: 32px;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: var(--gap-2xl);
+  color: inherit;
+}
+.div1 {
+  position: absolute;
+  top: 141px;
+  left: 400px;
+  width: 370px;
+  height: 419px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.onlineElectronicStore {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+  width: 223px;
+  flex-shrink: 0;
+}
+.div2,
+.link2,
+.onlineElectronicStore {
+  display: flex;
+  align-items: center;
+}
+.link2 {
+  text-decoration: none;
+  width: 256px;
+  height: 32px;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: var(--gap-2xl);
+  color: inherit;
+}
+.div2 {
+  top: 128px;
+  left: 0;
+  width: 370px;
+  height: 432px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+  text-align: left;
+}
+.bg,
+.div2,
+.vectorIcon {
+  position: absolute;
+}
+.bg {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 1px solid var(--lightgrey);
+  box-sizing: border-box;
+}
+.vectorIcon {
+  height: 27.6%;
+  width: 27.6%;
+  top: 36.2%;
+  right: 136.2%;
+  bottom: 36.2%;
+  left: -63.8%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.leftArrow {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 27.6%;
+  width: 27.6%;
+  top: 36.2%;
+  right: 36.2%;
+  bottom: 36.2%;
+  left: 36.2%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rightArrow {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.arrows,
+.projectsPartners1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.arrows {
+  top: 5px;
+  left: 1060px;
+  width: 110px;
+  height: 50px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.projectsPartners1 {
+  top: 0;
+  left: 0;
+  font-size: var(--semibold-7-size);
+  line-height: 52px;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+  width: 378px;
+}
+.projectsPartners {
+  position: absolute;
+  top: 2792px;
+  left: 171px;
+  width: 1170px;
+  height: 700px;
+  text-align: right;
+  font-size: var(--semibold-4-size);
+  color: var(--black);
+  font-family: var(--semibold-11);
+}

@@ -1,0 +1,246 @@
+.heroBanner {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  width: 1512px;
+  height: 850px;
+  text-align: center;
+  font-size: var(--semibold-11-size);
+  color: var(--color-white);
+  font-family: var(--semibold-11);
+}
+
+.bgImg {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  width: 1512px;
+  height: 850px;
+  z-index: -1;
+}
+
+.text {
+  position: absolute;
+  top: 240px;
+  left: 371px;
+  width: 771px;
+  height: 264px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+
+.weAreA {
+  margin: 0;
+}
+.weAreAContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 106px;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.focusedOnCreating {
+  position: relative;
+  font-size: var(--semibold-4-size);
+  line-height: 32px;
+  font-weight: 600;
+  font-family: var(--bold-2);
+}
+
+.imageIcon {
+  position: absolute;
+  top: 0;
+  left: 585px;
+  width: 585px;
+  height: 490px;
+  object-fit: cover;
+}
+.linesIcon {
+  position: absolute;
+  top: 11px;
+  left: 180px;
+  width: 172px;
+  height: 72px;
+}
+.tweets {
+  position: absolute;
+  top: 62px;
+  left: 32px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  width: 60px;
+}
+.mditwitterIcon {
+  top: 64px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+}
+.div,
+.div1,
+.mditwitterIcon {
+  position: absolute;
+}
+.div1 {
+  top: 0;
+  left: 2px;
+  font-size: var(--semibold-7-size);
+  line-height: 52px;
+  font-weight: 600;
+  font-family: var(--semibold-11);
+  display: flex;
+  align-items: center;
+  width: 74px;
+}
+.div {
+  top: 1px;
+  left: 399px;
+  width: 92px;
+  height: 87px;
+}
+.peers {
+  top: 62px;
+  left: 32px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  width: 49px;
+}
+.div2,
+.k,
+.peers {
+  position: absolute;
+}
+.k {
+  top: 0;
+  left: 2px;
+  font-size: var(--semibold-7-size);
+  line-height: 52px;
+  font-weight: 600;
+  font-family: var(--semibold-11);
+  display: flex;
+  align-items: center;
+  width: 79px;
+}
+.div2 {
+  top: 1px;
+  left: 219px;
+  width: 81px;
+  height: 87px;
+}
+.linesOfCode {
+  position: absolute;
+  top: 63px;
+  left: 31px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  width: 113px;
+}
+.gitIcon {
+  position: absolute;
+  top: 66px;
+  left: 1px;
+  width: 20px;
+  height: 19.52px;
+}
+.div3,
+.k1,
+.numbers {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.k1 {
+  font-size: var(--semibold-7-size);
+  line-height: 52px;
+  font-weight: 600;
+  font-family: var(--semibold-11);
+  display: flex;
+  align-items: center;
+  width: 88px;
+}
+.div3,
+.numbers {
+  width: 144px;
+  height: 88px;
+}
+.numbers {
+  top: 560px;
+  left: 579px;
+  width: 491px;
+}
+.castynetIsA {
+  margin: 0;
+}
+.castynetIsAContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.castynetIsAContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 52px;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  width: 570px;
+}
+.weAreHigh {
+  display: block;
+}
+.weAreHighContainer {
+  margin: 0;
+  position: relative;
+  font-size: var(--regular-2-size);
+  line-height: 28px;
+  font-family: var(--bold-2);
+  display: flex;
+  align-items: center;
+  width: 469px;
+  height: 231px;
+  flex-shrink: 0;
+}
+.about,
+.text {
+  position: absolute;
+}
+.text {
+  top: 227px;
+  left: 0;
+  width: 570px;
+  height: 425px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+  font-size: var(--semibold-7-size);
+  font-family: var(--semibold-11);
+}
+.about {
+  top: 750px;
+  left: 171px;
+  width: 1170px;
+  height: 652px;
+  text-align: left;
+  font-size: var(--bold-2-size);
+  color: var(--black);
+  font-family: var(--bold-2);
+}
+
+// .home {
+//   position: relative;
+//   width: 100%;
+//   height: 6305px;
+//   overflow: hidden;
+// }

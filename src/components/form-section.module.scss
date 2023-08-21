@@ -1,0 +1,122 @@
+.line,
+.message1 {
+  position: relative;
+}
+.message1 {
+  line-height: 32px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 770px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.line {
+  border-top: 1px solid var(--black);
+  box-sizing: border-box;
+  width: 771px;
+  height: 1px;
+}
+.line1,
+.message {
+  position: absolute;
+}
+.message {
+  top: 427px;
+  left: 0;
+  width: 770px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.line1 {
+  top: 49.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--black);
+  box-sizing: border-box;
+  width: 771px;
+  height: 1px;
+}
+.arrow2Icon {
+  position: absolute;
+  top: 24.2px;
+  left: 759.2px;
+  width: 11.6px;
+  height: 6.6px;
+}
+.kindOfApp,
+.whatKindOf {
+  position: absolute;
+  left: 0;
+  width: 770px;
+  height: 50px;
+}
+.whatKindOf {
+  top: 0;
+  line-height: 32px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.kindOfApp {
+  top: 351px;
+}
+.emailAddress {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 370px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.line2 {
+  position: relative;
+  border-top: 1px solid var(--black);
+  box-sizing: border-box;
+  width: 371px;
+  height: 1px;
+}
+.email,
+.name {
+  position: absolute;
+  top: 275px;
+  left: 400px;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.name {
+  left: 0;
+}
+.haveAProject {
+  margin: 0;
+}
+.haveAProjectContainer {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 47px;
+  font-size: var(--semibold-11-size);
+  line-height: 106px;
+  font-weight: 600;
+  font-family: var(--semibold-11);
+  text-align: center;
+}
+.letsTalk {
+  position: absolute;
+  top: 5212px;
+  left: 371px;
+  width: 770px;
+  height: 643px;
+  text-align: left;
+  font-size: var(--bold-2-size);
+  color: var(--black);
+  font-family: var(--bold-2);
+}
