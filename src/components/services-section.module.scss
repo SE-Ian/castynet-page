@@ -11,37 +11,41 @@
 }
 .maskGroupChild {
   left: 301px;
-  width: 911px;
-  height: 836px;
+  // width: 911px;
+  // height: 836px;
 }
 .javascriptReactjsReact {
-  position: absolute;
-  top: 44px;
-  left: 16px;
-  line-height: 32px;
+  // position: absolute;
+  // top: 44px;
+  // left: 16px;
+  line-height: 110px;
   font-weight: 600;
+  // margin-left: 10px;
 }
 .lines2Icon {
   position: absolute;
   top: 59px;
   left: 134px;
-  width: 869px;
-  height: 1px;
+  // width: 869px;
+  // height: 1px;
 }
 .lines1Icon,
 .skills {
   position: absolute;
   top: -1px;
   left: 0;
-  width: 1170px;
-  height: 121px;
+  // width: 1170px;
+  // height: 121px;
 }
 .skills {
   top: 836px;
   left: 171px;
   height: 120px;
 }
-.linesIcon,
+.linesIcon {
+  position: relative;
+}
+
 .maskGroup {
   position: relative;
   width: 1512px;
@@ -91,8 +95,8 @@
 }
 .mobile3Icon {
   position: absolute;
-  height: 55%;
-  width: 19.3%;
+  // height: 55%;
+  // width: 19.3%;
   top: 22.5%;
   right: 72.28%;
   bottom: 22.5%;
@@ -176,8 +180,8 @@
 .iconWindow2 {
   top: 45px;
   left: 48px;
-  width: 110px;
-  height: 110px;
+  // width: 110px;
+  // height: 110px;
   overflow: hidden;
 }
 .div3,
