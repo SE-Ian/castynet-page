@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 import { Button } from "@/components/button"
-import styles from "./styles.module.scss"
+import styles from "@/styles/_forms-area.module.scss"
 export const FormSection = () => {
   return (
     <div className={styles.letsTalk}>

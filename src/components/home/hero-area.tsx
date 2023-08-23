@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Button } from "@/components/button"
 import HeroSVG from "public/assets/heroSection.svg"
 
-import styles from "./styles.module.scss"
+import styles from "@/styles/_hero-area.module.scss"
 
 export const HeroBanner = () => {
   return (
@@ -21,6 +21,7 @@ export const HeroBanner = () => {
         letsTalkDisplay="inline-block"
         letsTalkLeft="28.89%"
       />
+      {/* <Button text="Let’s Talk" /> */}
       <div className={styles.text}>
         <h1 className={styles.weAreAContainer}>
           <p className={styles.weAreA}>we are a software studio.</p>

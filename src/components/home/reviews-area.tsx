@@ -1,5 +1,5 @@
 import Image from "next/image"
-import styles from "./styles.module.scss"
+import styles from "@/styles/_reviews-area.module.scss"
 export const ReviewSection = () => {
   return (
     <div className={styles.review}>

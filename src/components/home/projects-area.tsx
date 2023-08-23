@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { Button } from "@/components/button"
 
-import styles from "./styles.module.scss"
+import styles from "@/styles/_projects-area.module.scss"
 
 export const ProjectSection = () => {
   return (

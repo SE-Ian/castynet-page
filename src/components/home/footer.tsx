@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import styles from "./styles.module.scss"
+import styles from "@/styles/_footer.module.scss"
 import Link from "next/link"
 const Footer = () => {
   return (

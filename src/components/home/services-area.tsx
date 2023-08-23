@@ -1,5 +1,5 @@
 import Image from "next/image"
-import styles from "./styles.module.scss"
+import styles from "@/styles/_services-area.module.scss"
 
 export const ServicesSection = () => {
   return (

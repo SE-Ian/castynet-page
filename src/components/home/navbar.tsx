@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 import LogoIcon from "public/logo.svg"
-import styles from "./styles.module.scss"
+import styles from "@/styles/_navbar.module.scss"
 import GithubIcon from "public/vector7.svg"
 import BehanceIcon from "public/vector8.svg"
 import TwitterIcon from "public/vector9.svg"
@@ -52,27 +52,40 @@ export const Navbar = () => {
       <div className={styles.socialIcons}>
         <Link
           href="https://github.com/castynet-studios"
+          rel="noopener noreferrer"
+          target="_blank"
           className={styles.mdigithub}
         >
           <Image className={styles.vectorIcon} alt="" src={GithubIcon} />
         </Link>
         <Link
           href="https://www.behance.net/riungemaina"
+          rel="noopener noreferrer"
+          target="_blank"
           className={styles.mdigithub}
         >
           <Image className={styles.vectorIcon1} alt="" src={BehanceIcon} />
         </Link>
-        <Link href="https://twitter.com/castynet" className={styles.mdigithub}>
+        <Link
+          href="https://twitter.com/castynet"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={styles.mdigithub}
+        >
           <Image className={styles.vectorIcon2} alt="" src={TwitterIcon} />
         </Link>
         <Link
           href="https://www.pinterest.com/castynet/"
+          rel="noopener noreferrer"
+          target="_blank"
           className={styles.mdigithub}
         >
           <Image className={styles.vectorIcon3} alt="" src={PinterestIcon} />
         </Link>
         <Link
           href="https://www.instagram.com/castynet.studios/"
+          rel="noopener noreferrer"
+          target="_blank"
           className={styles.mdigithub}
         >
           <Image className={styles.vectorIcon3} alt="" src={InstragramIcon} />

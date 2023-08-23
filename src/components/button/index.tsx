@@ -65,3 +65,14 @@ export const Button: NextPage<ButtonType> = ({
     </div>
   )
 }
+
+// import Link from "next/link"
+// import styles from "./styles.module.scss"
+
+// export const Button = ({ text }) => {
+//   return (
+//     <Link href="/contact">
+//       <button className={styles.container}>{text}</button>
+//     </Link>
+//   )
+// }
