@@ -79,7 +79,6 @@ export const Navbar = () => {
         </Link>
       </div>
       <div className={styles.navLinksContainer}>
-        {/* <span>Home About Services Projects Process Contact</span> */}
         <div>
           <div className={styles.links}>
             {links.map((link) => (
@@ -90,7 +89,6 @@ export const Navbar = () => {
           </div>
         </div>
       </div>
-      {/* <Logo logoIconPosition="absolute" logoIconTop="0px" logoIconLeft="0px" /> */}
     </div>
   )
 }

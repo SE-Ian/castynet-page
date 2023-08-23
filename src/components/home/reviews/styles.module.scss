@@ -3,14 +3,14 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 1170px;
-  height: 502px;
+  // width: 1170px;
+  // height: 502px;
 }
 .arrowIcon {
   top: 8.1px;
   left: 262.1px;
-  width: 13.8px;
-  height: 13.8px;
+  // width: 13.8px;
+  // height: 13.8px;
 }
 .ratedAt5 {
   top: 1px;
@@ -25,8 +25,8 @@
 .starIcon {
   top: 6px;
   left: 134px;
-  width: 18px;
-  height: 17px;
+  // width: 18px;
+  // height: 17px;
 }
 .b {
   top: 0;
@@ -65,8 +65,8 @@
 }
 .starsIcon {
   top: 153px;
-  width: 113px;
-  height: 20px;
+  // width: 113px;
+  // height: 20px;
 }
 .braydenMiller {
   top: 116px;
@@ -82,8 +82,8 @@
   top: 100px;
   left: 170px;
   border-radius: 50%;
-  width: 90px;
-  height: 90px;
+  // width: 90px;
+  // height: 90px;
   object-fit: cover;
 }
 .review {
@@ -96,4 +96,5 @@
   font-size: var(--bold-2-size);
   color: var(--color-white);
   font-family: var(--bold-2);
+  z-index: 1;
 }

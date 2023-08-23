@@ -1,7 +1,7 @@
-import type { NextPage } from "next"
 import Image from "next/image"
-import styles from "./services-section.module.scss"
-const ServicesSection: NextPage = () => {
+import styles from "./styles.module.scss"
+
+export const ServicesSection = () => {
   return (
     <section className={styles.services5}>
       <div className={styles.bg}>
@@ -106,5 +106,3 @@ const ServicesSection: NextPage = () => {
     </section>
   )
 }
-
-export default ServicesSection

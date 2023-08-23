@@ -1,17 +1,41 @@
-import type { NextPage } from "next"
-import styles from "./work-process-section.module.scss"
-const WorkProcessSection: NextPage = () => {
+import Image from "next/image"
+import styles from "./styles.module.scss"
+export const WorkProcessSection = () => {
   return (
     <section className={styles.workProcess}>
       <div className={styles.bg}>
         <div className={styles.maskGroup}>
-          <img className={styles.bgIcon} alt="" src="/bg1.svg" />
-          <img className={styles.imageIcon} alt="" src="/image@2x.png" />
+          <Image
+            className={styles.bgIcon}
+            alt=""
+            src="/bg1.svg"
+            width={1512}
+            height={1190}
+          />
+          <Image
+            className={styles.imageIcon}
+            alt=""
+            src="/image@2x.png"
+            width={464}
+            height={738}
+          />
         </div>
-        <img className={styles.linesIcon} alt="" src="/lines.svg" />
+        <Image
+          className={styles.linesIcon}
+          alt=""
+          src="/lines.svg"
+          width={1180}
+          height={939}
+        />
       </div>
       <div className={styles.div}>
-        <img className={styles.bgIcon1} alt="" src="/bg2.svg" />
+        <Image
+          className={styles.bgIcon1}
+          alt=""
+          src="/bg2.svg"
+          width={410}
+          height={250}
+        />
         <div className={styles.text}>
           <span className={styles.blessedLightsGiveContainer}>
             <span className={styles.blessedLightsGiveContainer1}>
@@ -25,10 +49,22 @@ const WorkProcessSection: NextPage = () => {
           </span>
           <span className={styles.launch}>Launch</span>
         </div>
-        <img className={styles.launchIcon} alt="" src="/launch-icon.svg" />
+        <Image
+          className={styles.launchIcon}
+          alt=""
+          src="/launch-icon.svg"
+          width={38}
+          height={38}
+        />
       </div>
       <div className={styles.div1}>
-        <img className={styles.bgIcon1} alt="" src="/bg3.svg" />
+        <Image
+          className={styles.bgIcon1}
+          alt=""
+          src="/bg3.svg"
+          width={410}
+          height={250}
+        />
         <div className={styles.text}>
           <span className={styles.blessedLightsGiveContainer}>
             <span className={styles.blessedLightsGiveContainer1}>
@@ -40,10 +76,22 @@ const WorkProcessSection: NextPage = () => {
           </span>
           <span className={styles.launch}>{`Review & Testing`}</span>
         </div>
-        <img className={styles.testingIcon} alt="" src="/testing-icon.svg" />
+        <Image
+          className={styles.testingIcon}
+          alt=""
+          src="/testing-icon.svg"
+          width={38}
+          height={38}
+        />
       </div>
       <div className={styles.div2}>
-        <img className={styles.bgIcon1} alt="" src="/bg4.svg" />
+        <Image
+          className={styles.bgIcon1}
+          alt=""
+          src="/bg4.svg"
+          width={410}
+          height={250}
+        />
         <div className={styles.text}>
           <span className={styles.blessedLightsGiveContainer}>
             <span className={styles.blessedLightsGiveContainer1}>
@@ -57,14 +105,22 @@ const WorkProcessSection: NextPage = () => {
           </span>
           <span className={styles.launch}>{`Design & Development`}</span>
         </div>
-        <img
+        <Image
           className={styles.developmentIcon}
           alt=""
           src="/development-icon.svg"
+          width={38}
+          height={38}
         />
       </div>
       <div className={styles.div3}>
-        <img className={styles.bgIcon1} alt="" src="/bg5.svg" />
+        <Image
+          className={styles.bgIcon1}
+          alt=""
+          src="/bg5.svg"
+          width={410}
+          height={250}
+        />
         <div className={styles.text}>
           <span className={styles.blessedLightsGiveContainer}>
             <span className={styles.blessedLightsGiveContainer1}>
@@ -78,11 +134,15 @@ const WorkProcessSection: NextPage = () => {
           </span>
           <span className={styles.launch}>{`Discover & Search Idea`}</span>
         </div>
-        <img className={styles.developmentIcon} alt="" src="/idea-icon.svg" />
+        <Image
+          className={styles.developmentIcon}
+          alt=""
+          src="/idea-icon.svg"
+          width={38}
+          height={38}
+        />
       </div>
       <h4 className={styles.ourWorkProcess}>Our Work Process</h4>
     </section>
   )
 }
-
-export default WorkProcessSection

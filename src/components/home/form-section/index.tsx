@@ -1,7 +1,8 @@
-import type { NextPage } from "next"
+import Image from "next/image"
+
 import { Button } from "@/components/button"
-import styles from "./form-section.module.scss"
-const FormSection: NextPage = () => {
+import styles from "./styles.module.scss"
+export const FormSection = () => {
   return (
     <div className={styles.letsTalk}>
       <Button
@@ -22,7 +23,13 @@ const FormSection: NextPage = () => {
       </div>
       <div className={styles.kindOfApp}>
         <div className={styles.line1} />
-        <img className={styles.arrow2Icon} alt="" src="/arrow-2.svg" />
+        <Image
+          className={styles.arrow2Icon}
+          alt=""
+          src="/arrow-2.svg"
+          width={11.6}
+          height={6.6}
+        />
         <div className={styles.whatKindOf}>
           What kind of app are you interested in?
         </div>
@@ -42,5 +49,3 @@ const FormSection: NextPage = () => {
     </div>
   )
 }
-
-export default FormSection
