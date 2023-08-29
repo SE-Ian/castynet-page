@@ -14,36 +14,15 @@ export const IntroSection = () => {
       />
       <div className={styles.numbers}>
         <Image
-          className={styles.linesIcon}
+          className={styles.verticallines}
           alt=""
           src="/lines4.svg"
           width={172}
           height={72}
         />
-        <div className={styles.div}>
-          <b className={styles.tweets}>Tweets</b>
-          <Image
-            className={styles.mditwitterIcon}
-            alt=""
-            src="/mditwitter.svg"
-            width={22}
-            height={22}
-          />
-          <div className={styles.div1}>285</div>
-        </div>
-        <div className={styles.div2}>
-          <b className={styles.peers}>Peers</b>
-          <Image
-            className={styles.mditwitterIcon}
-            alt=""
-            src="/mdiinstagram.svg"
-            width={22}
-            height={22}
-          />
-          <div className={styles.k}>{`1.6k `}</div>
-        </div>
-        <div className={styles.div3}>
-          <b className={styles.linesOfCode}>Lines of Code</b>
+        <div className={styles.sect1}>
+          <div className={styles.gitnum}>{`931k `}</div>
+          <p className={styles.gitdesc}>Lines of Code</p>
           <Image
             className={styles.gitIcon}
             alt=""
@@ -51,28 +30,49 @@ export const IntroSection = () => {
             width={20}
             height={19.52}
           />
-          <div className={styles.k1}>{`931k `}</div>
+        </div>
+        <div className={styles.sect2}>
+          <div className={styles.peernum}>{`1.6k `}</div>
+          <p className={styles.peerdesc}>Peers</p>
+          <Image
+            className={styles.socialIcon}
+            alt=""
+            src="/mdiinstagram.svg"
+            width={22}
+            height={22}
+          />
+        </div>
+        <div className={styles.sect3}>
+          <div className={styles.tweetsnum}>{`285`}</div>
+          <p className={styles.tweets}>Tweets</p>
+          <Image
+            className={styles.socialIcon}
+            alt=""
+            src="/mditwitter.svg"
+            width={22}
+            height={22}
+          />
         </div>
       </div>
-      <div className={styles.text}>
-        <h1 className={styles.castynetIsAContainer}>
-          <span className={styles.castynetIsAContainer1}>
-            <p className={styles.castynetIsA}>{`Castynet is a team `}</p>
-            <p className={styles.castynetIsA}>{`of Software Developers `}</p>
-            <p className={styles.castynetIsA}>based in Nairobi KE.</p>
+      <div className={styles.textContainer}>
+        <div className={styles.introContainer}>
+          <span className={styles.intro}>
+            Castynet is a team
+            <br /> of Software Developers
+            <br /> based in Nairobi KE.
           </span>
-        </h1>
-        <p className={styles.weAreHighContainer}>
-          <span className={styles.castynetIsAContainer1}>
+        </div>
+        <div className={styles.descContainer}>
+          <div>
             <span
-              className={styles.weAreHigh}
-            >{`We are high spirited geeks passionate about tech. Our mission is to create Empowering Software. We are powered by coffee, unreal imagination & attention to detail .`}</span>
-            <span className={styles.weAreHigh}>&nbsp;</span>
+              className={styles.desc}
+            >{`We are high spirited geeks passionate about tech. Our mission is to create Empowering Software. We are powered by coffee, unreal imagination & attention to detail.`}</span>
+            <br />
             <span
-              className={styles.weAreHigh}
+              className={styles.desc}
             >{`Whether you are looking to put your boutique online or want a chat forum for your pals, the Castynet Studios will create your app on time & within your budget.`}</span>
-          </span>
-        </p>
+          </div>
+        </div>
       </div>
     </div>
   )
