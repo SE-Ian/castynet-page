@@ -82,7 +82,7 @@ export const ProjectSection = () => {
         </Link>
       </div>
       <div className={styles.arrows}>
-        <button className={styles.leftArrow} autoFocus>
+        <button className={styles.leftArrow}>
           <div className={styles.bg} />
           <Image
             className={styles.vectorIcon}
@@ -92,7 +92,7 @@ export const ProjectSection = () => {
             height={15}
           />
         </button>
-        <button className={styles.rightArrow} autoFocus>
+        <button className={styles.rightArrow}>
           <div className={styles.bg} />
           <Image
             className={styles.vectorIcon1}
