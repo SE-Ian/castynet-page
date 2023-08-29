@@ -1,7 +1,5 @@
 .heroBanner {
   max-width: 800px;
-  // margin: auto;
-  // height: 500px;
   text-align: center;
   font-size: var(--semibold-11-size);
   color: var(--color-white);
@@ -10,10 +8,6 @@
   .bgImg {
     max-width: fit-content;
     z-index: -1;
-
-    @media screen and (width <= 800px) {
-      width: 800px;
-    }
   }
 
   .text {

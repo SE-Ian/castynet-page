@@ -4,12 +4,13 @@ import Link from "next/link"
 import { links } from "@/constants"
 
 import LogoIcon from "public/logo.svg"
-import styles from "@/styles/_navbar.module.scss"
 import GithubIcon from "public/vector7.svg"
 import BehanceIcon from "public/vector8.svg"
 import TwitterIcon from "public/vector9.svg"
 import PinterestIcon from "public/vector10.svg"
 import InstragramIcon from "public/vector11.svg"
+
+import styles from "@/styles/_navbar.module.scss"
 
 export const Navbar = () => {
   return (
