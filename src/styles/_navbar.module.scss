@@ -8,114 +8,87 @@
   font-size: var(--bold-1-size);
   color: var(--orange);
   font-family: var(--bold-2);
-}
-// .heroSection {
-//   width: 100vw;
-//   height: 100vh;
-// }
-.links {
-  color: white;
-  text-decoration: none;
-}
 
-// .link {
-//   margin: 5px;
-// }
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 
-.line {
-  position: absolute;
-  top: 69.5px;
-  left: -0.5px;
-  border-top: 1px solid var(--color-white);
-  box-sizing: border-box;
-  width: 1171px;
-  height: 1px;
-}
-.vectorIcon {
-  position: absolute;
-  height: 81.31%;
-  width: 83.33%;
-  top: 8.33%;
-  right: 8.33%;
-  bottom: 10.35%;
-  left: 8.33%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.mdigithub {
-  text-decoration: none;
-  position: relative;
-  width: 18px;
-  height: 18px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.vectorIcon1,
-.vectorIcon2,
-.vectorIcon3 {
-  position: absolute;
-  height: 58.33%;
-  width: 92.29%;
-  top: 22.29%;
-  right: 3.54%;
-  bottom: 19.38%;
-  left: 4.17%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.vectorIcon2,
-.vectorIcon3 {
-  height: 70.83%;
-  width: 87.17%;
-  top: 16.67%;
-  right: 6.42%;
-  bottom: 12.5%;
-  left: 6.42%;
-}
-.vectorIcon3 {
-  height: 83.33%;
-  width: 83.33%;
-  top: 8.33%;
-  right: 8.33%;
-  bottom: 8.33%;
-  left: 8.33%;
-}
-.socialIcons {
-  position: absolute;
-  top: 16px;
-  left: 1035px;
-  width: 135px;
-  height: 18px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-2xs);
-}
-.about {
-  color: var(--color-white);
-}
-.navLinksContainer {
-  text-decoration: none;
-  position: absolute;
-  top: 13px;
-  left: 420px;
-  line-height: 24px;
-  font-weight: 700;
-  color: inherit;
-}
+  .line {
+    position: absolute;
+    top: 69.5px;
+    left: -0.5px;
+    border-top: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 1171px;
+    height: 1px;
+  }
 
-.link {
-  color: white;
-  text-decoration: none;
-  padding-right: 10px;
-  cursor: pointer;
-}
+  .navLinksContainer {
+    position: absolute;
+    top: 13px;
+    left: 420px;
+    line-height: 24px;
+    font-weight: 700;
+    color: inherit;
+  }
 
-.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
+  .link {
+    color: white;
+    padding-right: 10px;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--orange);
+    }
+  }
+
+  .socialIcons {
+    position: absolute;
+    top: 16px;
+    left: 1035px;
+    width: 135px;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-2xs);
+  }
+
+  .mdicon {
+    text-decoration: none;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .vectorIcon {
+    position: absolute;
+    height: 81.31%;
+    width: 83.33%;
+    top: 8.33%;
+    right: 8.33%;
+    bottom: 10.35%;
+    left: 8.33%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vectorIcon1,
+  .vectorIcon2,
+  .vectorIcon3 {
+    position: absolute;
+    height: 58.33%;
+    width: 92.29%;
+    top: 22.29%;
+    right: 3.54%;
+    bottom: 19.38%;
+    left: 4.17%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
 }
