@@ -4,7 +4,7 @@ import styles from "@/styles/_intro-area.module.scss"
 
 export const IntroSection = () => {
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id="about">
       <Image
         className={styles.imageIcon}
         alt=""

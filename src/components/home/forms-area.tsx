@@ -4,7 +4,7 @@ import { Button } from "@/components/button"
 import styles from "@/styles/_forms-area.module.scss"
 export const FormSection = () => {
   return (
-    <div className={styles.letsTalk}>
+    <div className={styles.letsTalk} id="contact">
       <Button
         ctaText="Submit"
         buttonPosition="absolute"

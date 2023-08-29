@@ -1,10 +1,22 @@
+.header {
+  position: absolute;
+  top: 20px;
+  left: 171px;
+  width: 1170px;
+  height: 70px;
+  text-align: right;
+  font-size: var(--bold-1-size);
+  color: var(--orange);
+  font-family: var(--bold-2);
+}
 // .heroSection {
 //   width: 100vw;
 //   height: 100vh;
 // }
-// .links {
-//   z-index: 1;
-// }
+.links {
+  color: white;
+  text-decoration: none;
+}
 
 // .link {
 //   margin: 5px;
@@ -96,28 +108,14 @@
 }
 
 .link {
+  color: white;
   text-decoration: none;
   padding-right: 10px;
-}
-
-.header {
-  position: absolute;
-  top: 20px;
-  left: 171px;
-  width: 1170px;
-  height: 70px;
-  text-align: right;
-  font-size: var(--bold-1-size);
-  color: var(--orange);
-  font-family: var(--bold-2);
+  cursor: pointer;
 }
 
 .logo {
   position: absolute;
   top: 0;
   left: 0;
-}
-
-.link {
-  cursor: pointer;
 }

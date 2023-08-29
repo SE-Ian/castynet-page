@@ -2,7 +2,7 @@ import Image from "next/image"
 import styles from "@/styles/_work-area.module.scss"
 export const WorkProcessSection = () => {
   return (
-    <section className={styles.workProcess}>
+    <section className={styles.workProcess} id="process">
       <div className={styles.bg}>
         <div className={styles.maskGroup}>
           <Image

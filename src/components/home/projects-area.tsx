@@ -2,22 +2,26 @@ import Image from "next/image"
 import { Button } from "@/components/button"
 
 import styles from "@/styles/_projects-area.module.scss"
+import Link from "next/link"
 
 export const ProjectSection = () => {
   return (
-    <section className={styles.projectsPartners}>
-      <Button
-        ctaText="Let’s Talk"
-        buttonPosition="absolute"
-        buttonCursor="pointer"
-        buttonBorder="none"
-        buttonPadding="0"
-        buttonBackgroundColor="transparent"
-        buttonTop="642px"
-        buttonLeft="495px"
-        letsTalkDisplay="inline-block"
-        letsTalkLeft="28.89%"
-      />
+    <section className={styles.projectsPartners} id="projects">
+      <Link href="/projects">
+        <Button
+          ctaText="Let’s Talk"
+          buttonPosition="absolute"
+          buttonCursor="pointer"
+          buttonBorder="none"
+          buttonPadding="0"
+          buttonBackgroundColor="transparent"
+          buttonTop="642px"
+          buttonLeft="495px"
+          letsTalkDisplay="inline-block"
+          letsTalkLeft="28.89%"
+        />
+      </Link>
+
       <div className={styles.div}>
         <Image
           className={styles.imageIcon}
@@ -26,7 +30,7 @@ export const ProjectSection = () => {
           width={370}
           height={368}
         />
-        <a className={styles.link}>
+        <Link className={styles.link} href="/project3">
           <div className={styles.inHouseBrand}>In-House Brand</div>
           <Image
             className={styles.arrowIcon}
@@ -35,7 +39,7 @@ export const ProjectSection = () => {
             width={13.8}
             height={13.8}
           />
-        </a>
+        </Link>
       </div>
       <div className={styles.div1}>
         <Image
@@ -45,7 +49,7 @@ export const ProjectSection = () => {
           width={370}
           height={368}
         />
-        <a className={styles.link1}>
+        <Link className={styles.link1} href="/project2">
           <div className={styles.eLearningPortal}>E-Learning Portal</div>
           <Image
             className={styles.arrowIcon}
@@ -54,7 +58,7 @@ export const ProjectSection = () => {
             width={13.8}
             height={13.8}
           />
-        </a>
+        </Link>
       </div>
       <div className={styles.div2}>
         <Image
@@ -64,7 +68,7 @@ export const ProjectSection = () => {
           width={370}
           height={368}
         />
-        <a className={styles.link2}>
+        <Link className={styles.link2} href="/project1">
           <div className={styles.onlineElectronicStore}>
             Online Electronic Store
           </div>
@@ -75,7 +79,7 @@ export const ProjectSection = () => {
             width={13.8}
             height={13.8}
           />
-        </a>
+        </Link>
       </div>
       <div className={styles.arrows}>
         <button className={styles.leftArrow} autoFocus>

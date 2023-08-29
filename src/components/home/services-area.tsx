@@ -3,7 +3,7 @@ import styles from "@/styles/_services-area.module.scss"
 
 export const ServicesSection = () => {
   return (
-    <section className={styles.services5}>
+    <section className={styles.services5} id="services">
       <div className={styles.bg}>
         <div className={styles.maskGroup}>
           <div className={styles.bg1} />

@@ -23,10 +23,10 @@ export const HeroBanner = () => {
       />
       {/* <Button text="Let’s Talk" /> */}
       <div className={styles.text}>
-        <h1 className={styles.weAreAContainer}>
-          <p className={styles.weAreA}>we are a software studio.</p>
+        <h1 className={styles.descContainer}>
+          <p className={styles.desc}>we are a software studio.</p>
         </h1>
-        <span className={styles.focusedOnCreating}>
+        <span className={styles.descMore}>
           Focused on creating elegant, modern & functional apps.
         </span>
       </div>
