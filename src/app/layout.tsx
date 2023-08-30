@@ -12,6 +12,21 @@ export const metadata: Metadata = {
   title: "Castynet Studios - Empowering Software",
   description:
     "we are a software studio. Focused on creating elegant, modern & functional apps.",
+  openGraph: {
+    type: "website",
+    url: "https://castynet.africa/",
+    title: "Castynet Studios - Empowering Software",
+    description:
+      "we are a software studio. Focused on creating elegant, modern & functional apps.",
+    images: [
+      {
+        url: "https://i.pinimg.com/280x280_RS/39/37/b9/3937b9b02327ce8d34137ad232640a39.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Castynet Studios - Empowering Software",
+      },
+    ],
+  },
 }
 
 export default function RootLayout({
