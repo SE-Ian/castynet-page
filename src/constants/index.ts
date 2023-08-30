@@ -30,3 +30,11 @@ export const links = [
     url: "#contact",
   },
 ]
+
+export const options = [
+  { value: "Web", label: "Web application" },
+  { value: "Android", label: "Android application" },
+  { value: "iOS", label: "iOS application" },
+  { value: "Desktop", label: "Desktop Enterprise Software" },
+  { value: "None", label: "Not sure" },
+]

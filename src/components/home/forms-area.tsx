@@ -1,10 +1,74 @@
-import Image from "next/image"
+"use client"
+
+import { useState } from "react"
+import Select from "react-select"
 
 import { Button } from "@/components/button"
+import { options } from "@/constants"
+
 import styles from "@/styles/_forms-area.module.scss"
+
 export const FormSection = () => {
+  const [appTypes, setAppTypes] = useState<
+    { value: string; label: string }[] | null
+  >([])
+
   return (
-    <div className={styles.letsTalk} id="contact">
+    <section className={styles.contactContainer} id="contact">
+      <h3 className={styles.formTitleContainer}>
+        <p className={styles.projectTitle}>
+          Have a project?
+          <br />
+          Let’s talk.
+        </p>
+      </h3>
+
+      <form>
+        <div className={styles.name}>
+          <input
+            type="text"
+            name="fullname"
+            placeholder="Your Name *"
+            required
+            className={styles.text}
+          />
+          <div className={styles.line2} />
+        </div>
+        <div className={styles.email}>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Address *"
+            required
+            className={styles.text}
+          />
+          <div className={styles.line2} />
+        </div>
+        <div className={styles.kindOfApp}>
+          <div className={styles.line1} />
+
+          <Select
+            isMulti
+            options={options}
+            value={appTypes}
+            onChange={(selectedOptions) =>
+              setAppTypes(selectedOptions as { value: string; label: string }[])
+            }
+            placeholder="What kind of app are you interested in?"
+          />
+        </div>
+
+        <div className={styles.message}>
+          <textarea
+            name="message"
+            placeholder="Message *"
+            required
+            className={styles.messageText}
+          />
+          <div className={styles.line} />
+        </div>
+      </form>
+
       <Button
         ctaText="Submit"
         buttonPosition="absolute"
@@ -17,35 +81,6 @@ export const FormSection = () => {
         letsTalkDisplay="inline-block"
         letsTalkLeft="33.89%"
       />
-      <div className={styles.message}>
-        <div className={styles.message1}>Message *</div>
-        <div className={styles.line} />
-      </div>
-      <div className={styles.kindOfApp}>
-        <div className={styles.line1} />
-        <Image
-          className={styles.arrow2Icon}
-          alt=""
-          src="/arrow-2.svg"
-          width={11.6}
-          height={6.6}
-        />
-        <div className={styles.whatKindOf}>
-          What kind of app are you interested in?
-        </div>
-      </div>
-      <div className={styles.email}>
-        <div className={styles.emailAddress}>Email Address *</div>
-        <div className={styles.line2} />
-      </div>
-      <div className={styles.name}>
-        <div className={styles.emailAddress}>Your Name *</div>
-        <div className={styles.line2} />
-      </div>
-      <h3 className={styles.haveAProjectContainer}>
-        <p className={styles.haveAProject}>{`Have a project? `}</p>
-        <p className={styles.haveAProject}>Let’s talk.</p>
-      </h3>
-    </div>
+    </section>
   )
 }
