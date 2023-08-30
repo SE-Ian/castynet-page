@@ -1,4 +1,4 @@
-![https://castynet-page.vercel.app/](/public/githubBanner.png)
+[![Castynet's GitHub Banner](/public/githubBanner.png)](https://castynet-page.vercel.app/)
 
 ## Getting Started
 
