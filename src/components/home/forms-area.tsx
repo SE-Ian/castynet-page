@@ -4,7 +4,7 @@ import { useState } from "react"
 import Select from "react-select"
 
 import { Button } from "@/components/button"
-import { options } from "@/constants"
+import { appOptions } from "@/constants"
 
 import styles from "@/styles/_forms-area.module.scss"
 
@@ -49,7 +49,7 @@ export const FormSection = () => {
 
           <Select
             isMulti
-            options={options}
+            options={appOptions}
             value={appTypes}
             onChange={(selectedOptions) =>
               setAppTypes(selectedOptions as { value: string; label: string }[])

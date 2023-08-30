@@ -31,7 +31,35 @@ export const links = [
   },
 ]
 
-export const options = [
+export const socialLinks = [
+  {
+    href: "https://github.com/castynet-studios",
+    src: "/vector.svg",
+    alt: "GitHub",
+  },
+  {
+    href: "https://www.behance.net/riungemaina",
+    src: "/vector1.svg",
+    alt: "Behance",
+  },
+  {
+    href: "https://twitter.com/castynet",
+    src: "/vector2.svg",
+    alt: "Twitter",
+  },
+  {
+    href: "https://www.pinterest.com/castynet/",
+    src: "/vector3.svg",
+    alt: "Pinterest",
+  },
+  {
+    href: "https://www.instagram.com/castynet.studios/",
+    src: "/vector4.svg",
+    alt: "Instagram",
+  },
+]
+
+export const appOptions = [
   { value: "Web", label: "Web application" },
   { value: "Android", label: "Android application" },
   { value: "iOS", label: "iOS application" },
