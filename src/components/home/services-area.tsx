@@ -1,99 +1,27 @@
 import Image from "next/image"
+
 import styles from "@/styles/_services-area.module.scss"
 
 export const ServicesSection = () => {
   return (
-    <section className={styles.services5} id="services">
+    <section className={styles.servicesContainer} id="services">
       <div className={styles.bg}>
         <div className={styles.maskGroup}>
           <div className={styles.bg1} />
           <Image
             className={styles.maskGroupChild}
             alt=""
-            src="/group-7.svg"
+            src="/servicesbg.svg"
             width={911}
             height={836}
           />
-          <div className={styles.skills}>
-            <span className={styles.javascriptReactjsReact}>
-              JavaScript ReactJS React Native NodeJS Headless CMS/s Firebase
-              Amazon AWS
-            </span>
-            <Image
-              className={styles.lines2Icon}
-              alt=""
-              src="/lines2.svg"
-              width={869}
-              height={1}
-            />
-            <Image
-              className={styles.lines1Icon}
-              alt=""
-              src="/lines1.svg"
-              width={1170}
-              height={121}
-            />
-          </div>
         </div>
-        <Image
-          className={styles.linesIcon}
-          alt=""
-          src="/lines3.svg"
-          width={1512}
-          height={1107}
-        />
       </div>
-      <div className={styles.div}>
-        <span className={styles.goodRuleIs}>
-          Good rule is day good tree yielding fifth appear moved their fifth.
+      <div className={styles.serviceContainer1}>
+        <span className={styles.titledesc}>Web Apps</span>
+        <span className={styles.desc}>
+          {`Good rule is day good tree yielding fifth appear moved their fifth.`}
         </span>
-        <span className={styles.iosApps}>iOS Apps</span>
-        <Image
-          className={styles.mobile3Icon}
-          alt=""
-          src="/mobile-3.svg"
-          width={110}
-          height={110}
-        />
-      </div>
-      <div className={styles.div1}>
-        <span className={styles.haveLesserMovethContainer}>
-          <span className={styles.haveLesserMovethContainer1}>
-            <p
-              className={styles.haveLesserMoveth}
-            >{`Have lesser moveth midst all that of `}</p>
-            <p className={styles.haveLesserMoveth}>
-              after dominion sixth fowl wherein.
-            </p>
-          </span>
-        </span>
-        <span className={styles.androidApps}>Android Apps</span>
-        <Image
-          className={styles.mobile3Icon}
-          alt=""
-          src="/mobile-21.svg"
-          width={110}
-          height={110}
-        />
-      </div>
-      <div className={styles.div2}>
-        <span className={styles.goodRuleIs}>
-          Saying that gathered day very tree saying unto the appear life.
-        </span>
-        <span className={styles.enterpriseSoftware}>Enterprise Software</span>
-        <Image
-          className={styles.mobile3Icon}
-          alt=""
-          src="/icon-find-1.svg"
-          width={110}
-          height={110}
-        />
-      </div>
-      <div className={styles.div3}>
-        <span className={styles.goodRuleIs}>
-          Good rule is day good tree yielding fifth appear moved their fifth.
-        </span>
-        <span className={styles.iosApps}>Web Apps</span>
         <Image
           className={styles.iconWindow2}
           alt=""
@@ -102,7 +30,67 @@ export const ServicesSection = () => {
           height={110}
         />
       </div>
+      <div className={styles.serviceContainer2}>
+        <span className={styles.titledesc2}>Enterprise Software</span>
+        <span className={styles.desc}>
+          Saying that gathered day very tree saying unto the appear life.
+        </span>
+        <Image
+          className={styles.mobile3Icon}
+          alt=""
+          src="/icon-find-1.svg"
+          width={110}
+          height={110}
+        />
+      </div>
+      <div className={styles.serviceContainer3}>
+        <span className={styles.titleDesc3}>Android Apps</span>
+        <span className={styles.desc}>
+          Have lesser moveth midst all that of after dominion sixth fowl
+          wherein.
+        </span>
+        <Image
+          className={styles.mobile3Icon}
+          alt=""
+          src="/mobile-21.svg"
+          width={110}
+          height={110}
+        />
+      </div>
+      <div className={styles.serviceContainer4}>
+        <span className={styles.titledesc}>iOS Apps</span>
+        <span className={styles.desc}>
+          Good rule is day good tree yielding fifth appear moved their fifth.
+        </span>
+        <Image
+          className={styles.mobile3Icon}
+          alt=""
+          src="/mobile-3.svg"
+          width={110}
+          height={110}
+        />
+      </div>
       <h2 className={styles.services}>Services</h2>
+      <div className={styles.skills}>
+        <span className={styles.skillsExample}>
+          {`JavaScript ReactJS React Native NodeJS Headless CMS/s Firebase
+              Amazon AWS`}
+        </span>
+        <Image
+          className={styles.lines1}
+          alt=""
+          src="/lines1.svg"
+          width={1170}
+          height={121}
+        />
+        <Image
+          className={styles.lines2}
+          alt=""
+          src="/lines2.svg"
+          width={869}
+          height={1}
+        />
+      </div>
     </section>
   )
 }
