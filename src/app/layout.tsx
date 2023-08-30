@@ -27,6 +27,15 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    cardType: "summary_large_image",
+    site: "@castynetstudios",
+    handle: "@castynetstudios",
+  } as {
+    cardType: string
+    site: string
+    handle: string
+  },
 }
 
 export default function RootLayout({
