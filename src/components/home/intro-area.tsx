@@ -1,4 +1,6 @@
+"use client"
 import Image from "next/image"
+import CountUp from "react-countup"
 
 import styles from "@/styles/_intro-area.module.scss"
 
@@ -21,7 +23,9 @@ export const IntroSection = () => {
           height={72}
         />
         <div className={styles.sect1}>
-          <div className={styles.gitnum}>{`931k `}</div>
+          <span className={styles.gitnum}>
+            <CountUp start={0} end={931} duration={2.5} suffix="k" />
+          </span>
           <p className={styles.gitdesc}>Lines of Code</p>
           <Image
             className={styles.gitIcon}
@@ -32,7 +36,15 @@ export const IntroSection = () => {
           />
         </div>
         <div className={styles.sect2}>
-          <div className={styles.peernum}>{`1.6k `}</div>
+          <span className={styles.peernum}>
+            <CountUp
+              start={0}
+              end={1.6}
+              duration={2.5}
+              decimals={1}
+              suffix="k"
+            />
+          </span>
           <p className={styles.peerdesc}>Peers</p>
           <Image
             className={styles.socialIcon}
@@ -43,7 +55,9 @@ export const IntroSection = () => {
           />
         </div>
         <div className={styles.sect3}>
-          <div className={styles.tweetsnum}>{`285`}</div>
+          <span className={styles.tweetsnum}>
+            <CountUp start={0} end={285} duration={2.5} />
+          </span>
           <p className={styles.tweets}>Tweets</p>
           <Image
             className={styles.socialIcon}
