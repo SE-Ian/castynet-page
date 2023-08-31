@@ -121,7 +121,7 @@ export const ProjectView1 = () => {
           href="https://play.google.com/store/apps"
           className={styles.reviewsLink}
         >
-          <span className={styles.review}>👍🏼</span>
+          <span>👍🏼</span>
           <b className={styles.rating}>Rated at 5 ⭐ on Google</b>
           <Image
             className={styles.arrowIcon}
