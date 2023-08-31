@@ -24,13 +24,7 @@ export const Footer = () => {
             target="_blank"
             className={styles.mdigicon}
           >
-            <Image
-              src={link.src}
-              alt={link.alt}
-              width={22}
-              height={22}
-              className={styles.vectorIcon}
-            />
+            <Image src={link.src} alt={link.alt} width={22} height={22} />
           </Link>
         ))}
       </div>
