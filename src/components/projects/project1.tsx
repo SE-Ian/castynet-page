@@ -14,10 +14,12 @@ import image1 from "/public/5@2x.png"
 import image2 from "/public/4@2x.png"
 import image3 from "/public/1@2x.png"
 import image4 from "/public/2@2x.png"
+import { NavbarLight } from "../home/navbarlight"
 
 export const ProjectView1 = () => {
   return (
     <div className={styles.project1}>
+      <NavbarLight />
       <Image className={styles.bgLinesIcon} alt="" src={bglines} />
       <div className={styles.review}>
         <Image className={styles.quoteIcon} alt="" src={quoteicon1} />

@@ -1,0 +1,94 @@
+.header {
+  position: absolute;
+  top: 20px;
+  left: 171px;
+  width: 1170px;
+  height: 70px;
+  text-align: right;
+  font-size: var(--bold-1-size);
+  color: var(--orange);
+  font-family: var(--bold-2);
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .line {
+    position: absolute;
+    top: 69.5px;
+    left: -0.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1171px;
+    height: 1px;
+  }
+
+  .navLinksContainer {
+    position: absolute;
+    top: 13px;
+    left: 420px;
+    line-height: 24px;
+    font-weight: 700;
+    color: inherit;
+  }
+
+  .link {
+    color: var(--color-black);
+    padding-right: 10px;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--orange);
+    }
+  }
+
+  .socialIcons {
+    position: absolute;
+    top: 16px;
+    left: 1035px;
+    width: 135px;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-2xs);
+  }
+
+  .mdicon {
+    text-decoration: none;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .vectorIcon {
+    position: absolute;
+    height: 81.31%;
+    width: 83.33%;
+    top: 8.33%;
+    right: 8.33%;
+    bottom: 10.35%;
+    left: 8.33%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vectorIcon1,
+  .vectorIcon2,
+  .vectorIcon3 {
+    position: absolute;
+    height: 58.33%;
+    width: 92.29%;
+    top: 22.29%;
+    right: 3.54%;
+    bottom: 19.38%;
+    left: 4.17%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+}
