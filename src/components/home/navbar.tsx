@@ -1,5 +1,7 @@
+"use client"
 import Image from "next/image"
 import Link from "next/link"
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll"
 
 import { links } from "@/constants"
 
@@ -22,9 +24,17 @@ export const Navbar = () => {
       <div className={styles.navLinksContainer}>
         <div>
           {links.map((link) => (
-            <Link key={link.id} href={link.url} className={styles.link}>
+            <ScrollLink
+              key={link.id}
+              to={link.url.substring(1)}
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              className={styles.link}
+            >
               {link.title}
-            </Link>
+            </ScrollLink>
           ))}
         </div>
       </div>
