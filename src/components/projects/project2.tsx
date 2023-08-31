@@ -1,23 +1,9 @@
 import Image from "next/image"
+import Link from "next/link"
+
+import { NavbarLight } from "../home/navbarlight"
 
 import styles from "@/styles/_project2.module.scss"
-
-import bglines1 from "/public/bg-lines1.svg"
-// import quoteicon1 from "/public/quote-icon1.svg"
-import arrow1 from "/public/arrow1.svg"
-import staricon from "/public/star-icon.svg"
-// import stars from "/public/stars.svg"
-// import profile from "/public/image1@2x.png"
-// import project21 from "/public/project2-1.svg"
-// import project22 from "/public/project2-2.svg"
-// import project23 from "/public/project2-3.svg"
-import image1 from "/public/5@2x.png"
-import image2 from "/public/4@2x.png"
-// import image3 from "/public/1@2x.png"
-// import image4 from "/public/2@2x.png"
-// import laptopview from "/public/laptopview.svg"
-import { NavbarLight } from "../home/navbarlight"
-import Link from "next/link"
 
 export const ProjectView2 = () => {
   return (
@@ -30,7 +16,13 @@ export const ProjectView2 = () => {
         width={1512}
         height={710}
       />
-      <Image className={styles.bgLinesIcon} alt="" src={bglines1} />
+      <Image
+        className={styles.bgLinesIcon}
+        alt=""
+        src="/bg-lines1.svg"
+        width={1180}
+        height={2167}
+      />
 
       <div className={styles.aboutContainer}>
         <div className={styles.aboutTitle}>
