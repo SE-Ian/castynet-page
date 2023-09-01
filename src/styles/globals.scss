@@ -9,29 +9,27 @@
   --font-plus-jakarta-sans: "Plus Jakarta Sans";
 
   /* font sizes */
-  --bold-2-size: 17px;
-  --bold-1-size: 16px;
+  --font-size-7xl: 26px;
+  --regular-2-size: 18px;
+  --regular-4-size: 30px;
   --semibold-3-size: 20px;
   --semibold-4-size: 20px;
   --semibold-7-size: 40px;
   --semibold-10-size: 70px;
   --semibold-11-size: 90px;
-  --regular-2-size: 18px;
-  --semibold-7-size: 40px;
-  --regular-4-size: 30px;
-  --regular-2-size: 18px;
-  --font-size-7xl: 26px;
+  --bold-1-size: 16px;
+  --bold-2-size: 17px;
 
   /* Colors */
   --color-gray-100: #86848c;
   --color-gray-200: #212121;
-  --black: #101010;
-  --darkgrey: #86848c;
   --lightgrey: #e9e8ef;
-  --color-white: #fff;
-  --orange: #f7931e;
+  --darkgrey: #86848c;
+  --black: #101010;
   --color-black: #000;
+  --color-white: #fff;
   --color-ghostwhite-100: #f1f3ff;
+  --orange: #f7931e;
 
   /* Gaps */
   --gap-2xs: 11px;
@@ -79,7 +77,3 @@ button {
 a {
   text-decoration: none;
 }
-
-// body::-webkit-scrollbar {
-//   color: #000;
-// }

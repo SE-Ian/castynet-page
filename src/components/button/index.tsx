@@ -1,6 +1,6 @@
 import { useMemo, type CSSProperties } from "react"
 import type { NextPage } from "next"
-import styles from "./styles.module.scss"
+import styles from "@/styles/_button.module.scss"
 
 type ButtonType = {
   ctaText?: string
@@ -57,7 +57,7 @@ export const Button: NextPage<ButtonType> = ({
   }, [letsTalkDisplay, letsTalkLeft])
 
   return (
-    <div className={styles.button} style={buttonStyle}>
+    <div className={styles.buttonContainer} style={buttonStyle}>
       <div className={styles.bg} />
       <b className={styles.letsTalk} style={letsTalkStyle}>
         {ctaText}
@@ -65,14 +65,3 @@ export const Button: NextPage<ButtonType> = ({
     </div>
   )
 }
-
-// import Link from "next/link"
-// import styles from "./styles.module.scss"
-
-// export const Button = ({ text }) => {
-//   return (
-//     <Link href="/contact">
-//       <button className={styles.container}>{text}</button>
-//     </Link>
-//   )
-// }

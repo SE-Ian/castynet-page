@@ -1,9 +1,9 @@
-import { ProjectView3 } from "@/components/projects/project3"
+import { ProjectView2 } from "@/components/projects/project2"
 
 const ProjectsPage = () => {
   return (
     <div>
-      <ProjectView3 />
+      <ProjectView2 />
     </div>
   )
 }
